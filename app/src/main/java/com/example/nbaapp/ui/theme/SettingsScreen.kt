@@ -19,7 +19,6 @@ fun SettingsScreen() {
         }
     ) { innerPadding ->
         Column(modifier = Modifier.padding(innerPadding)) {
-            Text(text = "Настройки")
         }
     }
 }

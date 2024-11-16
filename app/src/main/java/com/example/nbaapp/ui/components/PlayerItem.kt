@@ -1,19 +1,15 @@
-package com.example.nbaapp.ui.component
+package com.example.nbaapp.ui.components
 
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material.Text
-import androidx.compose.material3.Card
-import androidx.compose.material3.CardDefaults
-import androidx.compose.material3.MaterialTheme
+import androidx.compose.foundation.layout.*
+import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.example.nbaapp.domain.model.Player
+import com.example.nbaapp.data.model.Player
 import com.example.nbaapp.utils.translatePosition
 
 @Composable
-    fun PlayerItem(player: Player) {
+fun PlayerItem(player: Player) {
     Card(
         modifier = Modifier.padding(8.dp),
         elevation = CardDefaults.elevatedCardElevation(4.dp)

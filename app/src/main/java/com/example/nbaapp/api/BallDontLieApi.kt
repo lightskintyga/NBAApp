@@ -1,7 +1,7 @@
 package com.example.nbaapp.api
 
-import com.example.nbaapp.domain.model.PlayersResponse
-import com.example.nbaapp.domain.model.TeamsResponse
+import com.example.nbaapp.data.model.PlayersResponse
+import com.example.nbaapp.data.model.TeamsResponse
 import retrofit2.http.GET
 import retrofit2.http.Header
 import retrofit2.http.Query
